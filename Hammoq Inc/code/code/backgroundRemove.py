@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def backgroundRemoval(imagepath):
+    plt.figure(figsize=(10,10))
     #Load the Image
     img = cv2.imread(imagepath)
 

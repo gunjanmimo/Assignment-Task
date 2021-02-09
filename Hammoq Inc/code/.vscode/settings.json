@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/gunjanpaul/opt/anaconda3/envs/unity/bin/python",
+    "python.formatting.provider": "black"
+}

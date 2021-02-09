@@ -55,7 +55,7 @@ def FashionClassification(img):
 
 def LogoClassification(img):
     logoModel = load_model("logoModel.h5")
-    img.resize((240, 240, 3))
+    img.resize((240, 240, 3), refcheck=False)
     image = np.expand_dims(img, axis=0)
     pred = logoModel.predict(image)
     return logoClasses[np.argmax(pred)]
